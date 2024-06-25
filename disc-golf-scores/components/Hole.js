@@ -11,7 +11,7 @@ const Hole = ({ holeNumber }) => {
   return (
     <div>
       <h2>Hole {holeNumber}</h2>
-      <input type="range" min="-3" max="3" value={score} onChange={handleScoreChange} />
+      <input type="range" min="-4" max="4" value={score} onChange={handleScoreChange} />
       <p>Score: {score > 0 ? `+${score}` : score}</p>
     </div>
   );
